@@ -1,0 +1,210 @@
+
+*{
+    padding: opx;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* home-page */
+.bi{background-image: url(./icu.png);
+    background-size: cover;
+    background-blend-mode: multiply;}
+
+.home{width: 400px;
+      
+      /* background-color: aquamarine;      */
+       padding-top: 70px;
+      box-sizing: border-box;}    
+
+/* .home>h1{font-size: 100px;}   */
+
+.tt{text-align: center;
+     background-color: rgba(46, 125, 50, 1);
+     border-radius: 50%;
+     color: white;
+    min-width:50px;
+     height: 50px;
+     }
+
+     /* hover */
+.hor:hover{ color: blue!important;}  
+.butt:hover{transform: scale(1.2);
+               box-shadow: 0px 0px 20px blue;}
+               
+.box121button1:hover{transform: scale(1.2);
+               box-shadow: 0px 0px 20px blue;}
+               
+.box121button2:hover{transform: scale(1.2);
+               box-shadow: 0px 0px 20px blue;}               
+               
+
+/* 2-home */
+
+  .pg{padding: 0px!important;} 
+ /* .po1{position: absolute;
+      top: 150px;
+      right: 120px;
+      } */
+ .po2{position: absolute;
+      bottom: 30px;
+      left: 40px;}    
+
+.bo{width: 385px;
+    height: 475px;}
+
+ /* 3-home    */
+
+ .h{height: 200px;
+    width: 200px;}
+
+.ft{font-size: 150px;}  
+
+.h1{height: 250px;
+    width: 250px;}
+
+.ft1{font-size: 100px;}
+
+.i1{position: absolute;
+    top: 0px;
+    right: 0px;}
+
+.i2{position: absolute;
+    bottom: 0px;
+    left: 0px;}
+
+.b1{position: absolute;
+    top: 0px;
+    left: 0px;}        
+
+/* 4-home */
+
+.bt{border: none;
+    width: 200px;
+    height: 70px;
+    border-top-left-radius:40px;
+    border-bottom-right-radius: 40px; 
+}
+
+
+.box{width: 300px;
+     height: 300px;
+     /* background-color: lightblue; */
+     position: relative;}      
+
+.box1{width: 300px;
+     height: 300px;
+     background-color: blue;
+     
+ clip-path: path("M 20 0 L 280 0 A 20,20 0 0 1 300 20 L 300 200 A 20,20 0 0 1 280 220 L 240 220 A 20,20 0 0 0 220 240 L 220 280 A 20,20 0 0 1 200 300 L 20 300 A 20,20 0 0 1 0 280 L 0 20 A 20,20 0 0 1 20 0 Z");}     
+
+ .box2{width: 300px;
+    height: 300px;
+     background-color: white;
+    clip-path: path("M 20 5 L 280 5 A 20,20 0 0 1 295 20 L 295 200 A 20,20 0 0 1 280 215 L 240 215 A 20,20 0 0 0 217 240 L 215 280 A 20,20 0 0 1 200 295 L 20 295 A 20,20 0 0 1 5 280 L 5 20 A 20,20 0 0 1 20 5 Z");}     
+  
+
+.box2>img{width: 275px;
+          height: 200px;
+          margin:10px 5px 5px 13px;
+          border-radius: 20px;}
+.box2>img+div{margin: 0px 0px 0px 20px;
+              }          
+
+.box2>img+div>h5{font-size: 15px;
+                 width: 150px;
+                 height: 25px;
+                 text-align: center;
+                 background-color: white;
+                 border-radius: 30px;
+                 color: gray;
+                 border: 2px solid gray;
+                padding: 2px;
+                    box-sizing: border-box;}
+
+.box2>img+div>h5>i{font-size: 10px;
+                    }
+.box2>img+div>button{width: 180px;
+                     height: 40px;
+                     font-size: 25px;
+                     text-align: center;
+                     border: none;
+                     color: white;
+                     background-color: blue;
+                     border-radius: 10px;
+                     margin-top: 3px;} 
+                     
+.box>i{border: 2px solid blue;
+          font-size: 30px;
+        width: 50px;
+         color: blue;
+       height: 50px;
+       border-radius: 50%;
+        position: absolute;
+        padding-top: 8px;
+       bottom: 15px;
+       right: 15px;}
+
+/* General OPD Hours */
+
+       .gp{gap: 50px;}
+
+       .wh{width: 300px;
+           height: 300px;}
+
+           /* .yt{background-blend-mode: multiply;
+               background-image: url("./1-page.png");
+               object-fit: cover;} */
+
+/* Patient Reviews */  
+
+.cp{width: 300px;
+    height: 300px;
+    position: relative;}
+
+.cp1{width: 300px;
+    height: 300px;
+    background-color: blue;
+    clip-path:path("M 20 0 L 280 0 A 20 20 0 0 1 300 20 L  300 200 A 20 20 0 0 1 280 220 L 100 220 A 20 20 0 0 0 80 240 L 80 280 A 20 20 0 0 1 60 300 L 20 300 A 20 20 0 0 1 0 280 L 0 20 A 20 20 0 0 1 20 0 Z")
+}  
+
+ .cp2{width: 300px;
+    height: 300px;
+    background-color: WHITE;
+    
+     clip-path:path("M 15 4 L 272 5 A 20 20 0 0 1 296 20 L  296 197 A 20 20 0 0 1 284 216 L 92 217 A 20 20 0 0 0 78 243 L 78 278 A 20 20 0 0 1 60 298 L 20 297 A 20 20 0 0 1 5 274 L 3 5 A 20 20 0 0 1 0 13 Z")
+
+ } 
+
+ .star{width: 200px;
+    height: 70px;
+    /* background-color: red; */
+    position: absolute;
+    left: 100px;
+    bottom: 4px;} 
+
+ .star1{width: 200px;
+    height: 70px;
+    background-color: blue;
+    clip-path: path("M 20 0 L 180 0 A 20 20 0 0 1 200 20 A 40 50 0 0 1 160 70 L 20 70 A 20 20 0 0 1 0 50 L 0 20 A 20 20 0 0 1 20 0  Z");}
+
+    .star2{width: 200px;
+    height: 70px;
+    background-color: white;
+    clip-path: path("M 20 3 L 180 3 A 20 20 0 0 1 197 20 A 40 50 0 0 1 160 67 L 20 67 A 20 20 0 0 1 3 50 L 3 20 A 20 20 0 0 1 20 3 Z");}
+
+.ie{width: 265px;
+    height: 120px;
+    margin: 15px 15px 0px 15px;
+    border-radius: 20px;}
+
+.ft4{font-size: 17px;
+     margin: 5px 10px 10px 10px;}
+
+ /* contact */
+ 
+ .ft3{font-size: 12px;}
+
+
+
+
+               

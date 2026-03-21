@@ -1,0 +1,30 @@
+   /* contact */
+ 
+ .ft3{font-size: 12px;}    
+
+
+    /* hover */
+.hor:hover{ color: blue!important;}  
+.butt:hover{transform: scale(1.2);
+               box-shadow: 0px 0px 20px blue;}
+               
+.box121button1:hover{transform: scale(1.2);
+               box-shadow: 0px 0px 20px blue;}
+               
+.box121button2:hover{transform: scale(1.2);
+               box-shadow: 0px 0px 20px blue;}
+
+ /* home-1               */
+
+ .hh1{color: white;
+      font-size: 100px!important;}
+
+  .hhh1{
+     /* padding: 64px 56px 70px 50px;
+       box-sizing: border-box; */
+       padding: 20px 170px 204px 0px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+     left: -100px;
+}
